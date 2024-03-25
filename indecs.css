@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block-top {
+    width: 900px;
+    height: 125px;
+    background-color: antiquewhite;
+    padding: 10px 0 35px 35px;
+
+
+}
+
+.center {
+    width: 900px;
+    outline: 1px solid black;
+    height: 785px;
+    margin: 20px auto;
+
+}
+
+.big {
+    width: 300px;
+    height: 400px;
+    background-color: darkgreen;
+
+    float: left;
+}
+
+.text {
+    width: 60%;
+    height: 100px;
+    background-color: rgb(173, 165, 165);
+    margin: 10px auto;
+    text-align: center;
+}
+
+.number {
+    width: 50%;
+    height: 250px;
+    background-color: lightcoral;
+    margin: 40px auto 0;
+
+}
+
+.number-3 {
+    height: 80px;
+    background-color: red;
+    text-align: center;
+}
+
+.number-4,
+.number-5 {
+    float: left;
+    width: 50%;
+    height: 170px;
+    text-align: center;
+
+}
+
+.number-4 {
+    background-color: pink;
+}
+
+.number-5 {
+    background-color: rgb(202, 163, 124);
+}
+
+.block-a {
+    height: 40px;
+    background-color: darkcyan;
+    text-align: center;
+
+}
+
+.block-b,
+.block-c,
+.block-d {
+    width: 100px;
+    height: 360px;
+    float: left;
+    text-align: center;
+}
+
+.block-b {
+    background-color: rgb(143, 229, 229);
+}
+
+.block-c {
+    background-color: lightgray;
+}
+
+
+.block-d{
+    background-color: rgb(230, 206, 178);
+}
+
+.Start {
+    width: 800px;
+    height: 70px;
+    background-color: rgb(202, 163, 124);
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.Mid {
+    width: 300px;
+    height: 35px;
+    background-color: beige;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.bottom::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.bottom1,
+.bottom2,
+.bottom3,
+.bottom4,
+.bottom5 {
+    width: 180px;
+    height: 130px;
+    float: left;
+    text-align: center;
+}
+
+
+.bottom1 {
+    background-color: rgb(133, 169, 170);
+}
+
+.bottom2 {
+    background-color: rgb(111, 164, 216);
+}
+
+.bottom3 {
+    background-color: bisque;
+
+}
+
+.bottom4 {
+    background-color: rgb(230, 119, 119);
+}
+
+.bottom5 {
+    background-color: darkslateblue;
+}
+
+.block-b1 {
+    width: 50px;
+    height: 241px;
+    background-color: brown;
+    margin-top: 100px;
+    float: left;
+}
+
+.block-b2 {
+    width: 50px;
+    height: 120px;
+    background-color: rgb(164, 214, 115);
+    float: left;
+    margin-top: 222px;
+}
+
+.block-c1,
+.block-c2,
+.block-c3 {
+    width: 100px;
+    height: 90px;
+    text-align: center;
+
+}
+
+.block-c1 {
+    background-color: rgb(196, 189, 189);
+}
+
+.block-c2 {
+    background-color: blue;
+}
+
+.block-c3 {
+    background-color: blueviolet;
+}
+
+.block-c4,.block-c5 {
+    width: 50px;
+    height: 90px;
+
+    float: left;
+}
+
+
+ .block-c4 {
+
+
+    background-color: rgb(226, 220, 220);
+
+}
+
+.block-c5{
+    background-color: coral;
+}
+
+.block-d-d {
+    
+    width: 100px;
+    height: 90px;
+    background-color: aqua;
+
+}
+
+.block-d1 {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+
+}
+
+.block-I,
+.block-II,
+.block-III {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    float: left;
+
+}
+
+.block-I {
+    background-color: rgb(170, 215, 216);
+}
+
+.block-II {
+    background-color: rgb(237, 134, 151);
+}
+
+.block-III {
+    background-color: coral;
+}
+
+.topwait {
+    width: 300px;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.blockwait1 {
+    width: 300px;
+    height: 60px;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.blockred2 {
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.block-container::after{
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+
+.d3-image{
+    width: 40px;
+    height: 60px;
+    margin-top: 15px;
+
+}
+.blockblack{
+    width: 25px;
+    height: 10px;
+    background-color: black;
+    margin: 0 auto;
+}
+.block-VI{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(225, 219, 219);
+    text-align: center;
+}
+.block-VII{ 
+    width: 100px;
+    height: 240px;
+    background-color: darkslategrey;
+    text-align: center;
+    float: left;
+
+}
+.block-VIII{
+width:300px ;
+height: 60px;
+background-color: dimgrey;
+text-align: center;
+
+}
+.block-IX,.block-X{
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    float: left;
+    
+}
+.block-IX{
+    background-color: blueviolet;
+}
+.block-X{
+    background-color: bisque;
+}
+
+
+
+
+.block-XI {
+    width: 300px;
+    height: 180px;
+    background-color: indianred;
+    text-align: center;
+}
+.block-p{
+    height: 130px;
+    background-color: dimgrey;
+    text-align: center;
+}
+
+
+.big-container::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
